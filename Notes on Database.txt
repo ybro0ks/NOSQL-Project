@@ -1,0 +1,11 @@
+I attached some screenshots of my database so while reading the code, you my corrector can truly understand my design and how i worked with my nosql database to 
+solve this assignment
+
+User Personal information is seperate from Purchases which is also seperate from the phones in the shop, user Addresses is embedded into the personal information collections
+documents. 
+
+When a user wants to order it uses user id to in a sense reference(which is not a nosql thing) the user to that purchase.
+
+Thank you for reading.
+
+Kind regards and hope my assignment does not give you too much headache to correct.
