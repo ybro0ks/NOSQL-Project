@@ -2,7 +2,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 const http = require('http');
 const readline = require('readline');
 
-const ATLAS_URI = "mongodb+srv://brooklynigb:udta9GuVeY2OEINT@project.plsgtzi.mongodb.net/?retryWrites=true&w=majority&appName=Project";
+const ATLAS_URI = "";
 const client = new MongoClient(ATLAS_URI);
 const rl = readline.createInterface({
     input: process.stdin,
@@ -425,4 +425,5 @@ async function deleteOrders() {
             rl.close(); 
         }
     });
+
 }
